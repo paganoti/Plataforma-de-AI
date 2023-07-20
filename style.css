@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-image: url("./src/background.png") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+:root {
+	--color-gray-01: #f8fafc;
+	--color-gray-02: #e2e8f0;
+	--color-gray-03: #94a3b8;
+	--color-gray-04: #334155;
+	--color-gray-05: #1e293b;
+	--color-gray-06: #0f172a;
+	--color-gray-07: #020617;
+}
+
+main {
+	display: flex;
+	flex-direction: column; /*pra ter centerza que vai fica em coluna */
+	align-items: center; /* alinha os itens para o centro*/
+	height: 100vh; 
+	justify-content: center; /* deixa todo mundo no centro*/
+}
+
+.contaiber {
+	display: flex;
+	width: 1216px;
+	
+}
